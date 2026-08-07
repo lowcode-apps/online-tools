@@ -313,7 +313,7 @@ done
 
 **Action**: Test with:
 ```bash
-curl -H "Accept-Encoding: gzip,deflate,br" -I https://emn178.github.io/online-tools/
+curl -H "Accept-Encoding: gzip,deflate,br" -I https://lowcode-apps.github.io/online-tools/
 ```
 
 **Impact**: Already enabled on GitHub Pages
@@ -925,7 +925,7 @@ announce('Processing complete. Result copied to output.');
   "@type": "WebApplication",
   "name": "MD5 Hash Generator",
   "description": "Generate MD5 hash from text or file. Free online tool.",
-  "url": "https://emn178.github.io/online-tools/md5.html",
+  "url": "https://lowcode-apps.github.io/online-tools/md5.html",
   "applicationCategory": "UtilityApplication",
   "operatingSystem": "Any (Browser-based)",
   "offers": {
@@ -959,20 +959,20 @@ announce('Processing complete. Result copied to output.');
 <!-- Essential Meta Tags -->
 <meta name="description" content="Free online MD5 hash generator. Generate MD5 hash from text or files directly in your browser. No upload required, 100% client-side processing.">
 <meta name="keywords" content="md5, hash, generator, online, free, crypto, tool">
-<link rel="canonical" href="https://emn178.github.io/online-tools/md5.html">
+<link rel="canonical" href="https://lowcode-apps.github.io/online-tools/md5.html">
 
 <!-- OpenGraph for social sharing -->
 <meta property="og:type" content="website">
 <meta property="og:title" content="MD5 Hash Generator - Free Online Tool">
 <meta property="og:description" content="Generate MD5 hash from text or files. Free, fast, and secure.">
-<meta property="og:image" content="https://emn178.github.io/online-tools/images/og-md5.png">
-<meta property="og:url" content="https://emn178.github.io/online-tools/md5.html">
+<meta property="og:image" content="https://lowcode-apps.github.io/online-tools/images/og-md5.png">
+<meta property="og:url" content="https://lowcode-apps.github.io/online-tools/md5.html">
 
 <!-- Twitter Card -->
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="MD5 Hash Generator">
 <meta name="twitter:description" content="Free online MD5 hash generator">
-<meta name="twitter:image" content="https://emn178.github.io/online-tools/images/twitter-md5.png">
+<meta name="twitter:image" content="https://lowcode-apps.github.io/online-tools/images/twitter-md5.png">
 ```
 
 **Impact**: Better social sharing, SEO
@@ -991,13 +991,13 @@ announce('Processing complete. Result copied to output.');
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://emn178.github.io/online-tools/</loc>
+    <loc>https://lowcode-apps.github.io/online-tools/</loc>
     <lastmod>2026-08-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://emn178.github.io/online-tools/md5.html</loc>
+    <loc>https://lowcode-apps.github.io/online-tools/md5.html</loc>
     <lastmod>2026-08-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -1023,11 +1023,11 @@ announce('Processing complete. Result copied to output.');
 <rss version="2.0">
   <channel>
     <title>Online Tools - New Tools</title>
-    <link>https://emn178.github.io/online-tools/</link>
+    <link>https://lowcode-apps.github.io/online-tools/</link>
     <description>New cryptographic and data tools</description>
     <item>
       <title>New: Argon2 Password Hash</title>
-      <link>https://emn178.github.io/online-tools/argon2.html</link>
+      <link>https://lowcode-apps.github.io/online-tools/argon2.html</link>
       <pubDate>Thu, 07 Aug 2026 09:00:00 GMT</pubDate>
       <description>Generate Argon2 password hashes</description>
     </item>

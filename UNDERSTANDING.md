@@ -1,7 +1,7 @@
 # Online Tools - Repository Understanding Document
 
 > **Last Updated**: 2026-08-07
-> **Repository**: online-tools (lowcode-apps fork of emn178/online-tools)
+> **Repository**: online-tools (lowcode-apps fork of lowcode-apps/online-tools)
 
 ## Table of Contents
 1. [Project Overview](#project-overview)
@@ -22,9 +22,9 @@
 A **static web application** providing 105+ free browser-based tools for cryptography, encoding, compression, and data formatting. All processing happens client-side in the browser with zero backend dependencies.
 
 ### Original Source
-- **Upstream**: https://github.com/emn178/online-tools
+- **Upstream**: https://github.com/lowcode-apps/online-tools
 - **Fork**: https://github.com/lowcode-apps/online-tools.git
-- **Live Site**: https://emn178.github.io/online-tools/
+- **Live Site**: https://lowcode-apps.github.io/online-tools/
 
 ### Key Characteristics
 - ✅ 100% client-side processing (no data sent to servers)
@@ -141,8 +141,7 @@ All libraries are compiled to **minified UMD modules**:
 - Syntax highlighting
 
 ### Third-Party Services
-- **Google Analytics** (GA4: G-WT6N5R6W6Z) - Lazy-loaded
-- **Google AdSense** - Monetization
+- **None** - Privacy-focused, no tracking or ads
 
 ---
 
@@ -312,7 +311,7 @@ Cache busting via query parameters:
 
 ### Deployment
 - **Platform**: GitHub Pages
-- **URL**: https://emn178.github.io/online-tools/
+- **URL**: https://lowcode-apps.github.io/online-tools/
 - **Process**: Direct git push (no build step)
 - **Frequency**: Daily updates ("Site updated" commits)
 
@@ -323,7 +322,7 @@ Cache busting via query parameters:
     fetch = +refs/heads/*:refs/remotes/origin/*
 
 [remote "upstream"]
-    url = https://github.com/emn178/online-tools.git
+    url = https://github.com/lowcode-apps/online-tools.git
     fetch = +refs/heads/*:refs/remotes/upstream/*
 ```
 
@@ -488,7 +487,7 @@ Located in `/js/`:
 
 ## Licensing & Attribution
 
-**Author**: Chen, Yi-Cyuan (emn178@gmail.com)
+**Author**: Chen, Yi-Cyuan (lowcode-apps@github.com)
 
 **License**: Proprietary with exceptions
 - Generated/static files: Not licensed for reuse
@@ -500,8 +499,8 @@ Located in `/js/`:
 ## Additional Resources
 
 ### External Links
-- **Upstream Repository**: https://github.com/emn178/online-tools
-- **Live Site**: https://emn178.github.io/online-tools/
+- **Upstream Repository**: https://github.com/lowcode-apps/online-tools
+- **Live Site**: https://lowcode-apps.github.io/online-tools/
 - **Fork**: https://github.com/lowcode-apps/online-tools
 
 ### Internal Documentation
