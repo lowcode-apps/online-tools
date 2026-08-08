@@ -6,7 +6,7 @@ This guide explains how to deploy the Online Tools project to GitHub Pages using
 
 1. **GitHub Repository**: Ensure your code is pushed to GitHub
 2. **GitHub Pages enabled**: Enable GitHub Pages in repository settings
-3. **Node.js 20+**: Required for local builds and testing
+3. **Node.js 24+**: Required for local builds and testing
 
 ## Automated Deployment (GitHub Actions)
 
