@@ -1,5 +1,4 @@
 import { defineConfig } from 'vite';
-import { viteStaticCopy } from 'vite-plugin-static-copy';
 
 export default defineConfig({
   // Base path for GitHub Pages deployment
@@ -84,41 +83,7 @@ export default defineConfig({
   },
 
   // Plugin configuration
-  plugins: [
-    viteStaticCopy({
-      targets: [
-        // Copy all legacy HTML files
-        {
-          src: '*.html',
-          dest: '.'
-        },
-        {
-          src: '**/index.html',
-          dest: '.'
-        },
-        // Copy legacy JavaScript files
-        {
-          src: 'js/**/*',
-          dest: 'js'
-        },
-        // Copy CSS files
-        {
-          src: 'css/**/*',
-          dest: 'css'
-        },
-        // Copy images
-        {
-          src: 'images/**/*',
-          dest: 'images'
-        },
-        // Copy fonts if they exist
-        {
-          src: 'fonts/**/*',
-          dest: 'fonts'
-        }
-      ]
-    })
-  ],
+  plugins: [],
 
   // Optimization
   optimizeDeps: {
